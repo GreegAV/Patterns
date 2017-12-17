@@ -4,8 +4,10 @@
 public class Factory {
     public static void main(String[] args) {
         MyFactory myFactory = new MyFactory();
-        myFactory.create("bmw").drive();
-        myFactory.create("toyota").drive();
+        Car bmw = myFactory.create("bmw");
+        Car toyota = myFactory.create("toyota");
+        bmw.drive();
+        toyota.drive();
     }
 }
 
