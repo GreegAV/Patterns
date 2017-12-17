@@ -2,9 +2,9 @@ package FactoryMethod;
 
 public class MainFactoryMethod {
     public static void main(String[] args) {
-        Person person = Person.create();
-//        Person person1 = new Person();
-        person.setName("Vasya!");
-        System.out.println(person.getName());
+//        FactoryMethod factoryMethod = new FactoryMethod();
+        FactoryMethod factoryMethod = FactoryMethod.create();
+        factoryMethod.setName("FactoryMethod!");
+        System.out.println(factoryMethod.getName());
     }
 }

@@ -1,6 +1,6 @@
 package FactoryMethod;
 
-public class Person {
+public class FactoryMethod {
     private String name;
 
     public String getName() {
@@ -11,12 +11,12 @@ public class Person {
         this.name = name;
     }
 
-    private Person() {
+    private FactoryMethod() {
 
     }
 
-    public static Person create() {
+    public static FactoryMethod create() {
         System.out.println("new Person() will not be run due to private constructor!");
-        return new Person();
+        return new FactoryMethod();
     }
 }
