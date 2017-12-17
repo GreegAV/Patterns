@@ -1,5 +1,5 @@
 package Factory;
 
-interface Car{
+interface Car {
     void drive();
 }

@@ -11,10 +11,11 @@ public class Person {
         this.name = name;
     }
 
-    private Person(){
+    private Person() {
 
     }
-    public static Person create(){
+
+    public static Person create() {
         System.out.println("new Person() will not be run due to private constructor!");
         return new Person();
     }

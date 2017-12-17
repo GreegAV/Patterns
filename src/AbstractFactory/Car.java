@@ -1,5 +1,5 @@
 package AbstractFactory;
 
-interface Car{
+interface Car {
     void drive();
 }
